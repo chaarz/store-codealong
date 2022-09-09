@@ -1,6 +1,12 @@
+@use "./partials/variables" as *;
 @use "./partials/setup";
 @use "./partials/typography";
-@use "./partials/variables" as *;
+@use "./partials/baseStyles";
+@use "./partials/nav";
+@use "./partials/sections";
+@use "./partials/footer";
+@use "./partials/header";
+@use "./partials/mediaQueries"; //MEDIA QUERIES PARTIALS ALWAYS GOES AT THE BOTTOM
 
 h1{
     font-family: $headingFont;
